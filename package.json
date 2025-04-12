@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ArcieL0/Project-BaackEnd/issues"
   },
-  "homepage": "https://github.com/ArcieL0/Project-BaackEnd#readme"
+  "homepage": "https://github.com/ArcieL0/Project-BaackEnd#readme",
+  "devDependencies": {
+    "@ljharb/tsconfig": "^0.3.2"
+  }
 }
