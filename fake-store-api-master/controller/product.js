@@ -6,8 +6,8 @@ module.exports.getAllProducts = (req, res) => {
 
 	Product.find()
 		.select(['-_id'])
-		//hhhh
 		.limit(limit)
+		//tes2
 		.sort({ id: sort })
 		.then((products) => {
 			res.json(products);
