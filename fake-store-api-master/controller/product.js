@@ -6,6 +6,7 @@ module.exports.getAllProducts = (req, res) => {
 
 	Product.find()
 		.select(['-_id'])
+		//hhhh
 		.limit(limit)
 		.sort({ id: sort })
 		.then((products) => {
